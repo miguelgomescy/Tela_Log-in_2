@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo canais (1).png">
+    <title>Clinica | Log-in</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Criando conta</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>ou crie um login de cadastro</span>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <button>Criar conta</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Entrar</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon">
+                        <i class="fa-brands fa-apple"></i>
+                    </a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou use seu log-in</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Senha">
+                <span class="recuperar"><a href="recuperar.html">Recuperar senha</a></span>
+                <button>Entrar</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bem vindo de volta!</h1>
+                    <p>Cadastra-se seus dados para não perder nada. </p>
+                    <button class="hidden" id="login">Entrar com login</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Crie sua conta!</h1>
+                    <p>Registe-se agora para aproveitar todas os funcionalidades do site!</p>
+                    <button class="hidden" id="register">Criar Conta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
